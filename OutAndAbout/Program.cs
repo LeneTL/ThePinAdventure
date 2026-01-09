@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, Lars!");
+            var run = new Run();
+            run.Main();
         }
     }
 }
