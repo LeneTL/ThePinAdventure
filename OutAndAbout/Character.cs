@@ -14,13 +14,17 @@ namespace OutAndAbout
         private string CurrentCountry = "Norway";
         private string CurrentLocation = "Home";
         private List<Pin> OwnedPins;
-        private Effect CurrentEffect;
+        private string CurrentEffect;
 
-        public Character(Effect currentEffect)
+        public Character(string currentEffect)
         {
             CurrentEffect = currentEffect;
         }
 
+        public string PrintEffect()
+        {
+            return CurrentEffect;
+        }
         public int PrintMoney()
         {
             return Money;

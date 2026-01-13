@@ -30,6 +30,8 @@ namespace OutAndAbout
                 default:
                     Console.WriteLine("Please enter 1,2,3 or 4"); break;
             }
+
+            return;
         }
     }
 }
